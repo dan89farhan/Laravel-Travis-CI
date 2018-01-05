@@ -15,4 +15,8 @@ before_script:
   
 
 script:
+
+os:
+  - "linux"
+  - "windows"
   
