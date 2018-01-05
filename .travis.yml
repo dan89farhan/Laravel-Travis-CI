@@ -2,7 +2,7 @@ language: php
 php:
   
   - '7.1'
-  - 'stable'
+  
 services: 
   - 'mongodb'
 before_script:
@@ -12,4 +12,4 @@ before_script:
   - mysql -e 'create database homestead_test';
 
 script:
-  - vendor/bin/phpunit
+  # - vendor/bin/phpunit
