@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Tested Succesfully on both HERUKO and TRAVIS
                 </div>
 
                 <div class="links">
