@@ -16,7 +16,7 @@ before_script:
   - mysql -e 'create database homestead_test';
   
 
-script: "Check Script"
+script: 
   - 'php artisan passport:install'
   - 'php artisan config:cache'
 
