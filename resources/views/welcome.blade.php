@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Tested Succesfully on both HERUKO and TRAVIS
+                    Tested Succesfully on both HERUKO and TRAVIS Version 2
                 </div>
 
                 <div class="links">
