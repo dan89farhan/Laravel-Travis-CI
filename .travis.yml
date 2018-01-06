@@ -1,10 +1,9 @@
 language: php
 php:
-  - '5.4'
-  - '6.5'
+  
   - '7.1'
   - '7.2'
-  - '7.3'
+  
   
 services: 
   - 'mongodb'
@@ -17,7 +16,7 @@ before_script:
   
 
 script: 
-  - 'php artisan passport:install'
+  
   - 'php artisan config:cache'
 
 os:
