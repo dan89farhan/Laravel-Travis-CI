@@ -1,12 +1,14 @@
 language: php
 php:
-  
+  - '5.4'
+  - '6.5'
   - '7.1'
   - '7.2'
-  # - '7.3'
+  - '7.3'
   
 services: 
   - 'mongodb'
+  - 'mysql'
 before_script:
   - composer self-update
   - composer install --no-interaction
@@ -14,9 +16,11 @@ before_script:
   - mysql -e 'create database homestead_test';
   
 
-script:
+script: "Check Script"
+  - 'php artisan passport:install'
+  - 'php artisan config:cache'
 
 os:
   - "linux"
-  # - "windows"
+  - "windows"
   
